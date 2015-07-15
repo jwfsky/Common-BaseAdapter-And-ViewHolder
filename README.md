@@ -62,7 +62,7 @@ final LIBBaseAdapter<DATA> adapter = new LIBBaseAdapter<DATA>(){
 - **通过泛型返回所需的View，不便之处：[姨妈出血][1]**
 - 支持刷新单个item，需配合LIBBaseAdapter使用（当然也可拓展到自定义View）
 - 缓存LIBBaseAdapter中提供的position，DATA，itemViewType，layoutId
--**非与LIBBaseAdapter搭配使用时，**
+- **非与LIBBaseAdapter搭配使用时，和Adapter相关方法失效**
 
 ###使用示例
 ```java
